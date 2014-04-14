@@ -1,0 +1,25 @@
+{
+  "name": "gmo-share-connection",
+  "title": "GMO Share Connection",
+  "description": "GMO Share Connection plugin is designed for easy social sharing by letting user choose place/pages to use icons. 9 social network services are supported in this plugin including Facebook and Twitter.",
+  "version": "1.0",
+  "homepage": "https://github.com/GMOinternet/gmo-share-connection",
+  "author": {
+    "name": "WP Shop byGMO",
+    "url": "http://www.wpshop.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-sass": "~0.2.2"
+  },
+  "keywords": [],
+  "license": "GPLv2",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
