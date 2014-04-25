@@ -5,7 +5,7 @@ Plugin URI:
 Description: 
 Author: WP Shop byGMO
 Author URI: http://www.wpshop.com
-Contributors: WP Shop byGMO
+Contributors: Takeaki Nagashima
 Tags: Slider, Simple, Effects
 Requires at least: 3.8.1
 Tested up to: 3.9 
