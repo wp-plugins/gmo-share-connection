@@ -1,62 +1,25 @@
-#gmo-share-connection label {
-  margin-right: 2em;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap {
-  overflow: auto;
-  width: 100%;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap {
-  overflow: auto;
-}
-@media screen and (max-width: 782px) {
-  #gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap {
-    float: none;
-    width: 100%;
-  }
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner {
-  margin-right: 1em;
-  margin-bottom: 1em;
-}
-@media screen and (max-width: 782px) {
-  #gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner {
-    margin: 0;
-  }
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .gmo-share-connection-buttons {
-  background-color: #ffffff;
-  border: 1px splid #e5e5e5;
-  border-radius: 5px;
-  padding: 10px;
-  overflow: auto;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview {
-  height: 40px;
-  line-height: 40px;
-  overflow: auto;
-  border: 1px solid #dedede;
-  border-radius: 5px;
-  padding: 0 8px;
-  margin-right: 8px;
-  cursor: move;
-  width: 120px;
-  float: left;
-  position: relative;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview img {
-  display: block;
-  float: left;
-  width: 24px;
-  height: 24px;
-  margin: 8px 5px 8px 0;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview .close {
-  position: absolute;
-  top: -8px;
-  right: 4px;
-  display: none;
-  text-decoration: none;
-}
-#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner #btn-active .close {
-  display: block;
-}
+#wpwrap { background: #fff; }
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap { background-color: #222222; z-index: 0; }
+
+#gmo-share-connection { width: 930px; margin: 10px 0 0 10px; /* #gmoplugRight */ }
+#gmo-share-connection:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+#gmo-share-connection label { margin-right: 2em; }
+#gmo-share-connection h3 { font-weight: normal; border-bottom: 3px solid #ccc; padding: 0 0 6px 6px; }
+#gmo-share-connection h4 { font-size: 14px; font-weight: normal; padding-left: 6px; }
+#gmo-share-connection .form-table th { font-weight: normal; padding-left: 6px; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap { overflow: auto; width: 100%; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap { overflow: auto; }
+@media screen and (max-width: 782px) { #gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap { float: none; width: 100%; } }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner { margin-right: 1em; margin-bottom: 1em; }
+@media screen and (max-width: 782px) { #gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner { margin: 0; } }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .gmo-share-connection-buttons { background-color: #ffffff; border: 1px splid #e5e5e5; border-radius: 5px; padding: 10px; overflow: auto; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview { height: 40px; line-height: 40px; overflow: auto; border: 1px solid #dedede; border-radius: 5px; padding: 0 8px; margin-right: 8px; cursor: move; width: 120px; float: left; position: relative; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview img { display: block; float: left; width: 24px; height: 24px; margin: 8px 5px 8px 0; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner .btn-preview .close { position: absolute; top: -8px; right: 4px; display: none; text-decoration: none; }
+#gmo-share-connection .gmo-share-connection-buttons-wrap .gmo-share-connection-button-wrap .gmo-share-connection-button-inner #btn-active .close { display: block; }
+#gmo-share-connection #gmoplugLeft { float: left; width: 650px; }
+#gmo-share-connection #gmoplugRight { float: right; width: 212px; padding: 0 18px 15px; border: 1px solid #ccc; }
+#gmo-share-connection #gmoplugRight ul li.bnrlink { text-align: right; margin: 0 0 35px; }
+#gmo-share-connection #gmoplugRight ul li span { display: inline-block; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8.7px; padding: 0 6px 0 0; border-color: transparent transparent transparent #427133; line-height: 0px; _border-color: #000000 #000000 #000000 #427133; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000'); }
+#gmo-share-connection #gmoplugRight ul li a { color: #427133; text-decoration: none; background: url(../images/ico_link.png) left center no-repeat; padding: 0 0 0 15px; }

@@ -3,7 +3,7 @@
  * Plugin Name: GMO Share Connection
  * Plugin URI:  
  * Description: GMO Share Connection plugin is designed for easy social sharing by letting user choose place/pages to use icons. 9 social network services are supported in this plugin including Facebook and Twitter.
- * Version:     1.0
+ * Version:     1.1
  * Author:      WP Shop byGMO
  * Author URI:  http://www.wpshop.com
  * License:     GPLv2
@@ -264,10 +264,12 @@ public function options_page()
 {
 ?>
 <div id="gmo-share-connection" class="wrap">
-<form id="save-social" method="post" action="<?php echo esc_attr($_SERVER['REQUEST_URI']); ?>">
-<?php wp_nonce_field('gmo_share_connection', 'gmo_share_connection'); ?>
 
 <h2>GMO Share Connection</h2>
+
+<div id="gmoplugLeft">
+<form id="save-social" method="post" action="<?php echo esc_attr($_SERVER['REQUEST_URI']); ?>">
+<?php wp_nonce_field('gmo_share_connection', 'gmo_share_connection'); ?>
 
 <h3><?php _e('General Settings', 'gmo_share_connection'); ?></h3>
 
@@ -385,6 +387,33 @@ public function options_page()
 <p style="margin-top: 3em;"><input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e("Save Changes", "gmo_share_connection"); ?>"></p>
 
 </form>
+</div><!-- #gmoplugLeft -->
+
+<?php $plugin_file_url = plugins_url() . '/'; ?>
+<div id="gmoplugRight">
+<h3>WordPress Themes</h3>
+<ul>
+<li><a href="https://wordpress.org/themes/kotenhanagara" target="_blank">Kotehanagara</a></li>
+<li><a href="https://wordpress.org/themes/madeini" target="_blank">Madeini</a></li>
+<li><a href="https://wordpress.org/themes/azabu-juban" target="_blank">Azabu Juban</a></li>
+</ul>
+<a href="http://wpshop.com/themes?=vn_wps_shareconnection" target="_blank"><img src="<?php echo ($plugin_file_url.'gmo-share-connection/images/'.'wpshop_bnr_themes.png'); ?>" alt="WPShop by GMO WordPress Themes for Everyone!"></a>
+<ul><li class="bnrlink"><a href="http://wpshop.com/themes?=wps_shareconnection" target="_blank">Visit WP Shop Themes</a></li></ul>
+<h3>WordPress Plugins</h3>
+<ul>
+<li><a href="http://wordpress.org/plugins/gmo-showtime/" target="_blank">GMO Showtime</a></li>
+<li><a href="http://wordpress.org/plugins/gmo-font-agent/" target="_blank">GMO Font Agent</a></li>
+<li><a href="http://wordpress.org/plugins/gmo-share-connection/" target="_blank">GMO Share Connection</a></li>
+<li><a href="http://wordpress.org/plugins/gmo-ads-master/" target="_blank">GMO Ads Master</a></li>
+<li><a href="http://wordpress.org/plugins/gmo-page-transitions/" target="_blank">GMO Page Trasitions</a></li>
+<li><a href="http://wordpress.org/plugins/gmo-go-to-top/" target="_blank">GMO Go to Top</a></li>
+</ul>
+<a href="http://wpshop.com/plugins?=vn_wps_shareconnection" target="_blank"><img src="<?php echo ($plugin_file_url.'gmo-share-connection/images/'.'wpshop_bnr_plugins.png'); ?>" alt="WPShop by GMO WordPress Plugins for Everyone!"></a>
+<ul><li class="bnrlink"><a href="http://wpshop.com/plugins?=wps_shareconnection" target="_blank">Visit WP Shop Plugins</a></li></ul>
+<h3>Contact Us</h3>
+<a href="http://support.wpshop.com/?page_id=15" target="_blank"><img src="<?php echo ($plugin_file_url.'gmo-share-connection/images/'.'wpshop_logo.png'); ?>" alt="WPShop by GMO"></a>
+</div><!-- #gmoplugRight -->
+
 </div><!-- #gmo-share-connection -->
 <?php
 }
