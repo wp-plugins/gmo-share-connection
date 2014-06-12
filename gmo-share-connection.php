@@ -396,6 +396,7 @@ public function options_page()
 <li><a href="https://wordpress.org/themes/kotenhanagara" target="_blank">Kotehanagara</a></li>
 <li><a href="https://wordpress.org/themes/madeini" target="_blank">Madeini</a></li>
 <li><a href="https://wordpress.org/themes/azabu-juban" target="_blank">Azabu Juban</a></li>
+<li><a href="http://wordpress.org/themes/de-naani" target="_blank">de naani</a></li>
 </ul>
 <a href="http://wpshop.com/themes?=vn_wps_shareconnection" target="_blank"><img src="<?php echo ($plugin_file_url.'gmo-share-connection/images/'.'wpshop_bnr_themes.png'); ?>" alt="WPShop by GMO WordPress Themes for Everyone!"></a>
 <ul><li class="bnrlink"><a href="http://wpshop.com/themes?=wps_shareconnection" target="_blank">Visit WP Shop Themes</a></li></ul>
