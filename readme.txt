@@ -3,20 +3,19 @@
 Plugin Name: GMO Share Connection 
 Plugin URI: 
 Description: 
-Author: WP Shop byGMO
-Author URI: http://www.wpshop.com
+Author: GMO WP Cloud
+Author URI: https://www.wpcloud.jp/en/
 Contributors: Takeaki Nagashima
 Tags: Slider, Simple, Effects
 Requires at least: 3.8.1
-Tested up to: 4.0 
-Stable tag: Version 1.0 
+Tested up to: 4.1.1 
+Stable tag: Version 1.2 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-GMO Share Connection plugin is designed for easy social sharing by letting user choose place/pages to use icons.  
-9 social network services are supported in this plugin including Facebook and Twitter.
+GMO Share Connection plugin is designed for easy social sharing by letting user choose place/pages to use icons. 9 social network services are supported in this plugin including Facebook and Twitter.
   
 == Instruction ==
 
